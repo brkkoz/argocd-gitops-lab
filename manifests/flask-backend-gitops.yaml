@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: ghcr.io/brkkoz/three-tier-app-backend:3b5138359cb8043f75e22d9e55135adc812c5d27
+          image: ghcr.io/brkkoz/three-tier-app-backend:c94e952a07e62a4ab29bfacb23c3c6ab647099b5
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 5000
